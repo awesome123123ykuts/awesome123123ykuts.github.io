@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+.hero-wrap {
+    background-image: url("../img/Install-Air-Conditioning.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height:  55vh;
+    position: relative;
+    z-index: 0;
+}
+
+.hero-wrap:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    background: #353535;
+    opacity: 0.6;
+    z-index: -1;
+}
+
+.hero-inner {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: table;
+}
+
+.hero-wrap-inside {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.hero-wrap-inside h1 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 60px;
+    letter-spacing: 2px;
+  font-family: "Roboto", sans-serif;
+}
+
+.hero-wrap-inside span {
+    color: #f9f9f9;
+    font-size: 24px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+@media only screen and (max-width: 767px) {
+    .hero-wrap-inside h1 {
+        font-size: 30px;
+    }
+
+.purchase-button {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.purchase-button a {
+    margin: 15px;
+}
+
+  .preview-content-thumb {}
+}
+
+.page-layout {
+    height: auto;
+    padding: 50px 0;
+    width: 100%;
+}
+
+
+.thumb-title {
+    text-align: center;
+}
+
+.thumb-title h2, .thumb-title h2 a {
+  border: 2px solid #0F7CDD;
+  color: #000;
+  display: block;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+
+
+.thumb-title h2 {
+    border: medium none;
+    padding: 0 25px;
+}
+
+.thumb-title h2 a {}
+
+.thumb-title h2 a:hover {
+    background: #0F7CDD none repeat scroll 0 0;
+    color: #fff;
+    text-decoration: none;
+}
+
+.homepage-steps__desc {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.5em;
+    margin-top: 63px;
+}
+@media (max-width: 510px)
+.homepage-steps__desc {
+    font-size: 14px;
+}
+
+.bg-light{
+  background-color: #f5f5f5;
+}
+
+.layout-title {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.layout-title h2 {
+    color: #000;
+    font-size: 32px;
+    font-weight: 700;
+    height: auto;
+    letter-spacing: 0;
+    line-height: 40px;
+    margin-bottom: 30px;
+    text-align: center;
+    width: 100%;
+}
+
+.over{
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.about_content{
+  margin-top: 25px;
+  margin-bottom: 40px;
+}
+
+.img{
+    width: 120px;
+    height: 100px;
+    padding-left:20px;
+}
+.footer-wrap {
+    background-color: #1a1a1a;
+    padding-top: 30px;
+    background-size: cover;
+}
+
+.footer-wrap h3 {
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.footer-wrap p {
+    font-size: 14px;
+    line-height: 24px;
+    color: #b3b3b3;
+    margin-top: 15px;
+}
